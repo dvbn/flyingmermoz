@@ -281,7 +281,3 @@ Mermoz is a reminder that delegation is not autopilot. When work slips out of
 your hands and into an AI agent's, the instructor still needs to steer, recover,
 and decide where to land:
 [Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-
-  dvbn-FFDD00?logo=buymeacoffee&logoColor=000)](https://
-  www.buymeacoffee.com/dvbn)
