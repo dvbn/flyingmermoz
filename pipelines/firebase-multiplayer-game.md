@@ -101,7 +101,7 @@ The LLM must not:
 Default colors should follow an HEC-inspired academic palette: deep navy
 `#002855`, accent blue `#0072CE`, teal `#00AEC7`, light blue `#e6f1fa`, white,
 and neutral grays. Generated artifacts should include a small footer by default:
-"Created with Flying Mermoz, an open-source toolkit for teaching artifacts."
+"Created with Flying Mermoz, an open-source toolkit for educational content."
 
 ## Step-By-Step Workflow
 

@@ -65,7 +65,7 @@ Visual and interactive artifacts should also apply `checklists/accessibility.md`
 and record any limitations in `VERIFICATION.md`.
 
 Generated artifacts should include the default footer attribution:
-`Created with Flying Mermoz, an open-source toolkit for teaching artifacts.`
+`Created with Flying Mermoz, an open-source toolkit for educational content.`
 Link the product name to the public repository URL when available.
 
 Embedded-LLM pipelines should additionally follow

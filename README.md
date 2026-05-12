@@ -13,7 +13,7 @@ Desktop in cowork mode, Claude Code, Codex, or another capable coding agent,
 choose a pipeline, provide your course material, answer a short set of
 clarifying questions, approve the plan, and let the agent produce a polished
 HTML artifact or web game plus the user guide and verification notes. The goal
-is a useful educational content, with the instructor still controlling
+is useful educational content, with the instructor still controlling
 pedagogy, sources, tone, deployment, and publication decisions.
 
 ## Why Mermoz?
@@ -220,7 +220,7 @@ that default with any brand system they provide.
 Generated artifacts should include a small footer by default:
 
 ```text
-Created with Flying Mermoz, an open-source toolkit for teaching artifacts.
+Created with Flying Mermoz, an open-source toolkit for educational content.
 ```
 
 Link `Flying Mermoz` to the public repository URL when that URL is configured.

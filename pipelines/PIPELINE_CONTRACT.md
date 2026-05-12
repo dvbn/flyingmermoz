@@ -105,7 +105,7 @@ The LLM should:
   `#002855`, accent blue `#0072CE`, teal `#00AEC7`, light blue `#e6f1fa`,
   white, and neutral grays; keep contrast and readability high
 - include a small, unobtrusive footer in generated artifacts by default:
-  "Created with Flying Mermoz, an open-source toolkit for teaching artifacts."
+  "Created with Flying Mermoz, an open-source toolkit for educational content."
   Link the product name to the public repository URL when it is configured
 - make tool actions explicit before they matter, especially commands,
   deployments, external services, credentials, and data sharing

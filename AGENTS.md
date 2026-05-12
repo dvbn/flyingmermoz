@@ -74,7 +74,7 @@ Then read only what applies:
 - Use the HEC-inspired academic palette by default unless another brand system
   is provided.
 - Include the default footer unless the instructor disables or replaces it:
-  `Created with Flying Mermoz, an open-source toolkit for teaching artifacts.`
+  `Created with Flying Mermoz, an open-source toolkit for educational content.`
 
 ## Embedded LLM Work
 

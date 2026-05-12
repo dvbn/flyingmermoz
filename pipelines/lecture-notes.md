@@ -82,7 +82,7 @@ Default colors should follow an HEC-inspired academic palette: deep navy
 and neutral grays. The instructor may replace this with another brand system.
 
 Generated artifacts should include a small, unobtrusive footer by default:
-"Created with Flying Mermoz, an open-source toolkit for teaching artifacts."
+"Created with Flying Mermoz, an open-source toolkit for educational content."
 Link the product name to the public repository URL when configured.
 
 Default brevity caps should keep the first notes package reviewable: short
