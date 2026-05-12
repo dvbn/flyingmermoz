@@ -2,7 +2,7 @@
 
 ![A vintage red biplane threading a snow-capped pass through the Andes](assets/flying-mermoz-andes.jpg)
 
-AI is useful for teaching because it gives educators more time to make creative
+AI gives educators new opportunities to make creative
 course material: interactive explanations, calculators, web games, simulations,
 wizards, and classroom activities that used to require a developer or a long
 side project.
@@ -274,3 +274,6 @@ skills/         Optional agent-skill instructions
 templates/      Public-safe implementation contracts and starter structures
 work/           Local generated projects, gitignored and created as needed
 ```
+
+## Why Mermoz?
+Mermoz is the pilot you need when things get difficult: [Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
