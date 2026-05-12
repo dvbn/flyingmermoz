@@ -13,8 +13,15 @@ Desktop in cowork mode, Claude Code, Codex, or another capable coding agent,
 choose a pipeline, provide your course material, answer a short set of
 clarifying questions, approve the plan, and let the agent produce a polished
 HTML artifact or web game plus the user guide and verification notes. The goal
-is a useful first version in half a day, with the instructor still controlling
+is a useful educational content, with the instructor still controlling
 pedagogy, sources, tone, deployment, and publication decisions.
+
+## Why Mermoz?
+
+Mermoz is a reminder that delegation is not autopilot. When work slips out of
+your hands and into an AI agent's, the instructor still needs to steer, recover,
+and decide where to land:
+[Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
 
 ## Quick Start
 
@@ -276,10 +283,3 @@ skills/         Optional agent-skill instructions
 templates/      Public-safe implementation contracts and starter structures
 work/           Local generated projects, gitignored and created as needed
 ```
-
-## Why Mermoz?
-
-Mermoz is a reminder that delegation is not autopilot. When work slips out of
-your hands and into an AI agent's, the instructor still needs to steer, recover,
-and decide where to land:
-[Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
