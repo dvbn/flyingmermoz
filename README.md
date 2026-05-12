@@ -63,6 +63,8 @@ feedback, issues, or improvement ideas on the GitHub repository:
 Do not include private course material, student data, answer keys, secrets, or
 copyrighted source excerpts in public issues or examples.
 
+To support the project: <https://www.buymeacoffee.com/dvbn>.
+
 ## How The Pipelines Work
 
 Each pipeline should guide the agent through a controlled loop:
