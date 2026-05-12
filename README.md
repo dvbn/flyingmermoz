@@ -16,6 +16,8 @@ HTML artifact or web game plus the user guide and verification notes. The goal
 is useful educational content, with the instructor still controlling
 pedagogy, sources, tone, deployment, and publication decisions.
 
+Most of the user-facing content is HTML, and that's deliberate. Anyone with a text editor and a web browser can edit and inspect it: right-click the file to open it in a text editor and fix any wording the agent got wrong; double-click to load it in your browser and see the result. No build step, no deployment, no toolchain:verification and small edits are immediate.
+
 ## Why Mermoz?
 
 Mermoz is a reminder that delegation is not autopilot. When work slips out of
@@ -129,10 +131,13 @@ Generated work is not ready because it looks polished. Read it, test it, edit
 it, and verify the claims before sharing with students or colleagues. Do not
 delegate intent, source judgment, or final responsibility.
 
+Because outputs are HTML, you can open them directly in a text editor (see intro) and edit anything that needs correcting.
+
 For security and privacy, give agents the least access needed for the task.
 Treat web pages, PDFs, emails, and retrieved notes as untrusted inputs. Do not
 approve commands, deployments, data sharing, or credential use that you do not
 understand.
+
 
 ## Pipelines
 
