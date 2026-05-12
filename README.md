@@ -276,4 +276,4 @@ work/           Local generated projects, gitignored and created as needed
 ```
 
 ## Why Mermoz?
-Mermoz is the pilot you need when things get difficult: [Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
+Mermoz is the pilot you need when things slip out of Andes: [Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
