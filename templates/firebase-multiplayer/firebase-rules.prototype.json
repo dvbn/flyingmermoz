@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "games": {
+      "$gameId": {
+        "sessions": {
+          "$roomCode": {
+            ".read": true,
+            ".write": true
+          }
+        }
+      }
+    }
+  }
+}

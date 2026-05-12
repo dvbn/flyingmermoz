@@ -1,0 +1,13 @@
+{
+  "name": "embedded-llm-wizard-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify-cli dev",
+    "check": "node --check netlify/functions/auth-wizard.mjs && node --check netlify/functions/ask-wizard.mjs && node --check netlify/functions/save-progress.mjs && node --check netlify/functions/feedback-wizard.mjs && node --check netlify/functions/export-responses.mjs && node --check netlify/functions/reset-student.mjs && node --check netlify/lib/runtime-contract.mjs && node --check netlify/lib/wizard-utils.mjs && node --check netlify/lib/llm-provider.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.2"
+  }
+}

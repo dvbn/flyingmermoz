@@ -1,0 +1,69 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "games": {
+      "$gameId": {
+        "sessions": {
+          "$roomCode": {
+            "meta": {
+              ".read": "auth != null",
+              ".write": "auth != null && auth.token.role == 'instructor'",
+              ".validate": "newData.hasChildren(['phase', 'updatedAt']) && newData.child('phase').isString() && newData.child('phase').val().length <= 40 && newData.child('updatedAt').isNumber() && (!newData.child('timerEnd').exists() || newData.child('timerEnd').isNumber()) && (!newData.child('status').exists() || (newData.child('status').isString() && newData.child('status').val().length <= 80))"
+            },
+            "students": {
+              "$studentId": {
+                ".read": "auth != null && (auth.token.role == 'instructor' || auth.uid == $studentId)",
+                ".write": "auth != null && auth.uid == $studentId",
+                ".validate": "newData.hasChildren(['displayName', 'joinedAt']) && newData.child('displayName').isString() && newData.child('displayName').val().length <= 80 && newData.child('joinedAt').isNumber() && (!newData.child('lastSeen').exists() || newData.child('lastSeen').isNumber()) && (!newData.child('connected').exists() || newData.child('connected').isBoolean())"
+              }
+            },
+            "rounds": {
+              "$roundId": {
+                "submissions": {
+                  "$studentId": {
+                    ".read": "auth != null && (auth.token.role == 'instructor' || auth.uid == $studentId)",
+                    ".write": "auth != null && auth.uid == $studentId",
+                    ".validate": "newData.hasChildren(['payload', 'submittedAt']) && newData.child('payload').isString() && newData.child('payload').val().length <= 4000 && newData.child('submittedAt').isNumber()"
+                  }
+                },
+                "reflections": {
+                  "$studentId": {
+                    ".read": "auth != null && (auth.token.role == 'instructor' || auth.uid == $studentId)",
+                    ".write": "auth != null && auth.uid == $studentId",
+                    ".validate": "newData.hasChildren(['payload', 'submittedAt']) && newData.child('payload').isString() && newData.child('payload').val().length <= 1000 && newData.child('submittedAt').isNumber()"
+                  }
+                }
+              }
+            },
+            "publicResults": {
+              "$roundId": {
+                ".read": "auth != null",
+                ".write": "auth != null && auth.token.role == 'instructor'",
+                ".validate": "newData.hasChildren(['payload', 'publishedAt']) && newData.child('payload').isString() && newData.child('payload').val().length <= 8000 && newData.child('publishedAt').isNumber()"
+              }
+            },
+            "debriefs": {
+              "$roundId": {
+                ".read": "auth != null",
+                ".write": "auth != null && auth.token.role == 'instructor'",
+                ".validate": "newData.hasChildren(['prompt', 'concept', 'revealedAt']) && newData.child('prompt').isString() && newData.child('prompt').val().length <= 1000 && newData.child('concept').isString() && newData.child('concept').val().length <= 200 && newData.child('revealedAt').isNumber()"
+              }
+            },
+            "privateMessages": {
+              "$studentId": {
+                ".read": "auth != null && (auth.token.role == 'instructor' || auth.uid == $studentId)",
+                ".write": "auth != null && auth.token.role == 'instructor'",
+                ".validate": "newData.hasChildren(['payload', 'sentAt']) && newData.child('payload').isString() && newData.child('payload').val().length <= 2000 && newData.child('sentAt').isNumber()"
+              }
+            },
+            "$other": {
+              ".read": false,
+              ".write": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

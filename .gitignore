@@ -1,0 +1,31 @@
+# Local generated work and private source material
+work/
+private_sources/
+local_sources/
+
+# Local private methodology drafts and host tooling notes
+private_drafts/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated dependency/build folders
+node_modules/
+dist/
+build/
+.netlify/
+.firebase/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
