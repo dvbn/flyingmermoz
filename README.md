@@ -276,4 +276,8 @@ work/           Local generated projects, gitignored and created as needed
 ```
 
 ## Why Mermoz?
-Mermoz is the pilot you need when things slip out of Andes: [Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
+
+Mermoz is a reminder that delegation is not autopilot. When work slips out of
+your hands and into an AI agent's, the instructor still needs to steer, recover,
+and decide where to land:
+[Mermoz](https://robertmerlozpilotedemontagne.fr/du-9-au-13-mars-1929-mermoz-et-collenot-survivent-a-un-crash-dans-les-andes-2/).
